@@ -23,9 +23,12 @@ button {
   outline: none;
   height: 2.5em;
 }
-/** end of reusable */
+/** end of reusable **/
 
 /** headings start here**/
+h1 {
+  font-size: 2.5rem;
+}
 
 .head {
   padding: .7em;
@@ -63,4 +66,23 @@ button {
   color: #039DFF;
   background-color: #D3E8F5;
   font-size: 1rem;
+  opacity: 0.1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/** footer **/
+
+.copy {
+  padding: 2em .2em;
+  color: #D3E8F5;
+  text-align: center;
+  font-size: 1rem
+}
+
+.short-copy {
+  margin-top: .3em;
 }
