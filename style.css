@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    background-color: #039DFF;
+}
+
+/** reusable **/
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+input,
+button {
+  border-radius: .2em;
+  border: none;
+  outline: none;
+  height: 2.5em;
+}
+/** end of reusable */
+
+/** headings start here**/
+
+.head {
+  padding: .7em;
+  background-color: #D3E8F5;
+  margin-bottom: 1.5em;
+}
+
+h3, .head p {
+  margin: .5em 0;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/** headings end **/
+
+form, label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: .4em 0;
+  font-size: 1.8rem;
+  color: #D3E8F5; 
+}
+
+input {
+  margin-top: .4em;
+  padding: .3em;
+  height: 2.5em;
+  width: 100%;
+}
+
+button {
+  color: #039DFF;
+  background-color: #D3E8F5;
+  font-size: 1rem;
+}
